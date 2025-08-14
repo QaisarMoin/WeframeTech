@@ -4,6 +4,7 @@ export const Notifications: CollectionConfig = {
   slug: 'notifications',
   admin: {
     useAsTitle: 'title',
+    hidden: ({ user }) => user?.role === 'attendee',
   },
   access: {
     // Tenant-scoped access per role

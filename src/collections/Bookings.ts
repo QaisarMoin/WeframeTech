@@ -5,6 +5,7 @@ export const Bookings: CollectionConfig = {
   slug: 'bookings',
   admin: {
     useAsTitle: 'id',
+    hidden: ({ user }) => user?.role === 'attendee',
   },
   access: {
     // Tenant-scoped access per role

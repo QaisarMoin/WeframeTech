@@ -25,7 +25,6 @@
     "@payloadcms/richtext-lexical": "3.50.0",
     "@payloadcms/ui": "3.50.0",
     "cross-env": "^7.0.3",
-    "dotenv": "^16.4.7",
     "graphql": "^16.8.1",
     "next": "15.4.4",
     "payload": "3.50.0",
