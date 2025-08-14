@@ -1,0 +1,123 @@
+/* Minimal styles to match Payload admin dark theme */
+.signup-body {
+  margin: 0;
+  background: #0b0f19; /* matches payload dark */
+  color: #e5e7eb;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Ubuntu,
+    Cantarell,
+    Noto Sans,
+    Helvetica Neue,
+    Arial,
+    'Apple Color Emoji',
+    'Segoe UI Emoji';
+}
+
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.signup-card {
+  max-width: 36rem; /* wider card like admin */
+  margin: 0 auto;
+  background: #0b1220;
+  border: 1px solid #1f2937;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+h2.signup-title {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #9ca3af;
+  margin: 0 0 0.75rem 0;
+}
+
+p.signup-subtitle {
+  display: none;
+}
+
+.signup-field {
+  margin-bottom: 1rem;
+}
+
+.signup-field label {
+  display: block;
+  font-size: 0.875rem;
+  color: #d1d5db;
+  margin-bottom: 0.25rem;
+}
+
+.required-asterisk {
+  color: #ef4444;
+}
+
+.signup-input,
+.signup-select {
+  width: 100%;
+  padding: 0.75rem 0.75rem;
+  border: 1px solid #374151;
+  border-radius: 0.375rem;
+  background: #111827;
+  color: #e5e7eb;
+  outline: none;
+}
+
+.signup-input:focus,
+.signup-select:focus {
+  border-color: #3b82f6; /* blue focus like admin */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+.signup-button-light {
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.85rem 1rem;
+  background: #e5e7eb; /* light button like admin */
+  color: #111827;
+  border: 1px solid #374151;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup-button-light:hover {
+  background: #f3f4f6;
+}
+
+.signup-error {
+  margin-top: 0.5rem;
+  color: #f87171;
+  font-size: 0.875rem;
+}
+
+.signup-success {
+  color: #10b981;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.signup-footer {
+  margin-top: 1.25rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.signup-footer a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+.signup-footer a:hover {
+  text-decoration: underline;
+}
